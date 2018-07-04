@@ -12,9 +12,9 @@ for line in handle :
     
     email = words[1]
     
-    print(email)
+
     dic[email]= dic.get(email,0)+1
-print(dic)
+
 
 
 EmailCount = -1
